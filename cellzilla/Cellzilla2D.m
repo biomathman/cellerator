@@ -5251,7 +5251,7 @@ q=Tissue[v, e, c];
 Return[q]; 
 
 ];
-TemplateRandomSquareGrid[x___]:= (Print["Error: expecting TemplateRandomSquareGrid[numPoints, {xmin, xmax}, {ymin, ymax}]"]; $Failed); 
+TemplateRandomSquareGrid[x___]:= (Print["Error: expecting TemplateRandomSquareGrid[numPoints, {xmin, ymin}, {xmax, ymax}]"]; $Failed); 
 
 
 (* ::Input::Initialization:: *)
